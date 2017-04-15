@@ -1,0 +1,20 @@
+{
+  "name": "axius-challenge",
+  "version": "1.0.0",
+  "description": "SMS app for code challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Richard Smith",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "path": "^0.12.7",
+    "twilio": "^2.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
