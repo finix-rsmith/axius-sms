@@ -9,6 +9,14 @@
   },
   "author": "Richard Smith",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/finix-rsmith/axius-sms"
+  },
+  "engines": {
+    "node": "7.2.1",
+    "npm": "3.10.10"
+  },
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
