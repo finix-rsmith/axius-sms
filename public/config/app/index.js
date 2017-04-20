@@ -1,4 +1,4 @@
 // Export
 module.exports = {
-	status: 'test'
+	status: 'live'
 };
