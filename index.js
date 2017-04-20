@@ -2,12 +2,11 @@
 let express		= require('express'),
 	app			= express(),
 	path 		= require('path'),
-	routes		= require('./src/routes'),
+	routes		= require('./public/routes'),
 	port		= 4171;
 
 // Static
-global.app_root = path.resolve(__dirname + '/src');
-app.use(express.static(__dirname + '/src'));
+app.use(express.static(__dirname + '/public'));
 
 // Routes
 app.use('/', routes);
