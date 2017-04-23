@@ -4,8 +4,11 @@
   "description": "SMS app for code challenge",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
+    "start-dev": "nodemon index.js",
     "postinstall": "gulp",
+    "github-save": "git add . && git commit -m \"Github autosave\" && git push origin master",
+    "heroku-launch": "git add . && git commit -m \"Heroku autolaunch\" && git push heroku master && heroku open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Richard Smith",
@@ -30,6 +33,7 @@
     "twilio": "^2.11.1"
   },
   "devDependencies": {
+    "@angular/cli": "^1.0.0",
     "nodemon": "^1.11.0"
   }
 }
